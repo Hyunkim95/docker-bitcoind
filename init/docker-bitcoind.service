@@ -12,7 +12,7 @@ Restart=always
 Environment="NAME=bitcoind"
 Environment="DATA_VOL=bitcoind-data"
 Environment="IMG=kylemanna/bitcoind:dev"
-Environment="PORT=8333:8333/tcp"
+Environment="PORT=38333:38333/tcp"
 
 # To override environment variables, use local configuration directory:
 # /etc/systemd/system/docker-bitcoind.service/local.conf
